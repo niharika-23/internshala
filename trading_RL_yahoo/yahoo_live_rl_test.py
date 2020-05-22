@@ -36,6 +36,9 @@ options.add_argument('--disable-dev-shm-usage')
 options.add_argument('--headless')
 options.add_experimental_option('excludeSwitches', ['enable-logging'])
 #options.add_argument(f'user-agent={userAgent}')
+
+
+
 driver = webdriver.Chrome(executable_path=path , options=options)
 
 
